@@ -7,7 +7,7 @@
   </a>
 </p>
 
-**LUNAR** is a cutting-edge framework designed to build modern applications and libraries in [Lua](https://www.lua.org/).
+**LUNAR** is a next-generation language server, providing project dependencies and [Lua](https://www.lua.org/) language services to various editors.
 
 # Requirements
 
