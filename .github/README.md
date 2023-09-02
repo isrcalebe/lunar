@@ -11,9 +11,9 @@
 
 # Requirements
 
-- A desktop platform with the [Lua 5.4](https://www.lua.org/manual/5.4/) or higher runtime installed.
-- When working with the codebase, we recommend using an IDE with intellisense and syntax highlighting, such as [Neovim](https://neovim.io) or [Visual Studio Code](https://code.visualstudio.com).
+- A desktop platform with the [.NET 7.0 SDK](https://dotnet.microsoft.com/download) or higher runtime installed.
+- When working with the codebase, we recommend using an IDE with intellisense and syntax highlighting such as [Visual Studio 2022+](https://visualstudio.microsoft.com/vs/), [JetBrains Rider](https://www.jetbrains.com/rider/), or [Visual Studio Code](https://code.visualstudio.com/) with [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) and [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) plugin installed.
 
 # License
 
-This library is licensed under the [MIT License](https://opensource.org/licenses/mit). Please see [the license file](../LICENSE) for more information. [tl;dr](https://www.tldrlegal.com/license/mit-license) you can do whatever you want as long as you include the original copyright and license notice in any copy of the software/source.
+This server is licensed under the [MIT License](https://opensource.org/licenses/mit). Please see [the license file](../COPYING) for more information. [tl;dr](https://www.tldrlegal.com/license/mit-license) you can do whatever you want as long as you include the original copyright and license notice in any copy of the software/source.

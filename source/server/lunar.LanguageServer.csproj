@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup Label="Project">
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <AssemblyTitle>LUNAR</AssemblyTitle>
+    <AssemblyName>lunar</AssemblyName>
+    <Description>
+      LUNAR is a next-generation language server, providing project dependencies and Lua language services to various editors.
+    </Description>
+    <NoWarn>$(NoWarn);CS1591;NU5104</NoWarn>
+    <DefineConstants>$(DefineConstants);JETBRAINS_ANNOTATIONS</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Label="NuGet">
+    <Title>LUNAR</Title>
+    <PackageId>yambar.Lunar</PackageId>
+    <PackageReleaseNotes>Automated release.</PackageReleaseNotes>
+    <PackageTags>yambar lunar lua language server service lsp</PackageTags>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,24 @@
+<Project>
+  <PropertyGroup Label="C#">
+    <LangVersion>11.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup Label="Icon">
+    <None Include="$(MSBuildThisFileDirectory)..\.github\assets\nupkg.png">
+      <Pack>True</Pack>
+      <PackagePath>icon.png</PackagePath>
+    </None>
+  </ItemGroup>
+  <PropertyGroup Label="NuGet">
+    <Authors>Israel Calebe</Authors>
+    <Company>yambar</Company>
+    <Copyright>Copyright (c) 2023 Israel Calebe</Copyright>
+    <Product>lunar</Product>
+    <PackageReleaseNotes>Automated release.</PackageReleaseNotes>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/yambar/lunar</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/yambar/lunar</RepositoryUrl>
+  </PropertyGroup>
+</Project>
